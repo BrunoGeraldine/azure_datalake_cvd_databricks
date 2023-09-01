@@ -1,11 +1,11 @@
 # azure_datalake_cvd_databricks
-Projeto de criação de um Data-Lake com arquitetura em camadas para ingestão, tratamento e visualização de dados.
-
-Projeto estruturado utilizando Azure e databricks para ETL de dados e arquiteturação em camadas.
 
 
-Fonte de dados: 
-https://www.kaggle.com/datasets/cprete/covid19-open-datasets-for-brazil?resource=download
+<p align="center">
+  <img width="800" height="300" src="https://github.com/BrunoGeraldine/azure_datalake_cvd_databricks/assets/87772120/fda00310-963e-4d3c-985e-29aa4698a7c7"
+       </p>
+
+Projeto de criação de um Data-Lake com arquitetura em camadas para ingestão, tratamento e visualização de dados, utilizando Azure e databricks para ETL de dados e arquiteturação em camadas
 
 
 
@@ -26,6 +26,8 @@ Silver → dados tratados (dados transformados e limpos - data scientist and dat
 Gold → dados transformados e agregados/modelados (data evaluation and data visualization - data analyst, dashboards, insights)
 
 
+Fonte de dados: 
+https://www.kaggle.com/datasets/cprete/covid19-open-datasets-for-brazil?resource=download
 
 
 
