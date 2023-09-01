@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img width="800" height="300" src="https://github.com/BrunoGeraldine/azure_datalake_cvd_databricks/assets/87772120/fda00310-963e-4d3c-985e-29aa4698a7c7"
+  <img width="500" height="200" src="https://github.com/BrunoGeraldine/azure_datalake_cvd_databricks/assets/87772120/fda00310-963e-4d3c-985e-29aa4698a7c7"
        </p>
 
 Projeto de criação de um Data-Lake com arquitetura em camadas para ingestão, tratamento e visualização de dados, utilizando Azure e databricks para orquestração e ETL de dados.
