@@ -5,35 +5,73 @@
   <img width="500" height="200" src="https://github.com/BrunoGeraldine/azure_datalake_cvd_databricks/assets/87772120/fda00310-963e-4d3c-985e-29aa4698a7c7"
        </p>
 
-Projeto de criação de um Data-Lake com arquitetura em camadas para ingestão, tratamento e visualização de dados, utilizando Azure e databricks para orquestração e ETL de dados.
+**Bem-vindo ao Projeto de Criação de Data-Lake com Arquitetura em Camadas para Ingestão, Tratamento e Visualização de Dados utilizando Azure e Databricks**
 
-Esse projeto é destinado apenas para a criação de uma pipeline de dados capturando dados de um arquivo em formato ".csv" e alimentando um banco de dados em arquitetura de camadas para a disponibilização de dados brutos, tratados ou agregado optimizando a acessibilidade destes dados conforme a necessidade do time de negocios.
+---
 
-Utilizei neste projeto a seguinte arquitetura:
+### Descrição do Projeto
 
-Ingestão → armazenamento → tratamento → armazenamento/camadas (layers) → data visualization/data valuation.
+Este projeto tem como objetivo criar uma pipeline de dados robusta, implementando uma arquitetura em camadas para a ingestão, tratamento e visualização eficiente de dados. Utilizando Azure e Databricks, a pipeline captura dados de um arquivo CSV, os processa em camadas distintas (Bronze, Silver e Gold) e os disponibiliza para atender às diferentes necessidades dos diferentes times dentro da organização.
 
-### Ingestão:
-Captura de arquivo .csv
+---
 
-### Armazenamento e Orquestração
+### Arquitetura
 
-Azure DataBricks
+1. **Ingestão:**
+   - Captura de arquivo em formato .CSV
 
-### Tratamento → PysPark Databricks
+2. **Armazenamento e Orquestração:**
+   - Utilização do Azure Databricks para armazenamento e orquestração eficiente do pipeline.
 
-Camadas (layers)
+3. **Tratamento:**
+   - Processamento de dados utilizando PysPark no ambiente Databricks.
 
-Bronze → dados brutos (sem qualquer transformação) 
+4. **Camadas (Layers):**
+   - **Bronze:** Dados brutos, sem qualquer transformação.
+   - **Silver:** Dados tratados, transformados e limpos, destinados a cientistas de dados e profissionais de negócios.
+   - **Gold:** Dados transformados, agregados e modelados para avaliação e visualização, atendendo a analistas de dados, dashboards e insights.
 
-Silver → dados tratados (dados transformados e limpos - data scientist and data business)
+---
 
-Gold → dados transformados e agregados/modelados (data evaluation and data visualization - data analyst, dashboards, insights)
+### Fonte de Dados
 
+Os dados utilizados neste projeto foram obtidos do Kaggle, disponíveis em [Covid-19 Open Datasets for Brazil](https://www.kaggle.com/datasets/cprete/covid19-open-datasets-for-brazil?resource=download).
 
+---
 
-### Fonte de dados: 
-https://www.kaggle.com/datasets/cprete/covid19-open-datasets-for-brazil?resource=download
+### Tecnologias Aplicadas
+
+- **Azure Databricks:** Para armazenamento, orquestração e processamento eficiente.
+- **PysPark:** Utilizado para o tratamento avançado de dados no ambiente Databricks.
+- **Camadas (Layers):** Estrutura Bronze-Silver-Gold para atender diferentes necessidades de usuários.
+
+---
+
+### Como Utilizar
+
+1. **Configuração do Ambiente:**
+   - Configurar as credenciais do Azure Databricks.
+   - Certificar-se de que o ambiente esteja configurado conforme as especificações do projeto.
+
+2. **Ingestão e Processamento:**
+   - Executar o notebook Databricks na ordem especificada para realizar a ingestão, tratamento e armazenamento em camadas.
+
+3. **Visualização de Dados:**
+   - Utilizar as ferramentas de visualização integradas para explorar e avaliar os dados em diferentes camadas a sua escolha.
+
+---
+
+### Contribuições
+
+Contribuições são encorajadas! Sinta-se à vontade para abrir issues, propor melhorias ou enviar pull requests para aprimorar a eficiência e funcionalidades da pipeline.
+
+---
+
+### Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+---
 
 ### Técnologias aplicadas:
  <p align="left">
